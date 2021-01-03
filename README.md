@@ -11,3 +11,6 @@ Default users and pizzas are created using SQL load script. Other data should be
 
 ## Authentication
 Authentication is based on Basic Auth, so with every request to a protected endpoint, username and password must be added as headers.
+
+## discount based on count
+I created a new method named countDiscount for applying discount based on purchased pizza count according to the client the requirement, which is each 3 pizza the cheapest one should be free
